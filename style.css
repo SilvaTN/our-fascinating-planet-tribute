@@ -1,0 +1,46 @@
+body {
+    background-color: #071e3d;
+    color: white;
+    font-family: 'Andika New Basic', sans-serif, 'Courier New', monospace;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Kufam', cursive;
+    text-align: center;
+}
+
+p {
+    padding: 0 10vw;
+}
+
+a {
+    color: #21e6c1;
+}
+
+#img-div {
+    width: 100vw;
+    margin-left: -8px;
+    padding-top: 28px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-caption {
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    text-align: center;
+    justify-self: center;
+    color: rgb(197, 197, 197);
+}
+
+#image {
+    max-width: 20%;
+    justify-self: center;
+    align-self: center;
+}
