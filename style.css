@@ -44,3 +44,8 @@ a {
     justify-self: center;
     align-self: center;
 }
+
+#trampoline-diagram {
+    display: block;
+    margin: auto;
+}
