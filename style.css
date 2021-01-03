@@ -1,7 +1,12 @@
 body {
-    background-color: #071e3d;
+    /* background-color: #071e3d; */
+    background: linear-gradient(0deg, black, #071e3d 10%) no-repeat;
     color: white;
     font-family: 'Andika New Basic', sans-serif, 'Courier New', monospace;
+}
+
+h2, h4 {
+    margin-top: 50px;
 }
 
 h1 {
@@ -14,8 +19,25 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    text-align: right;
+    font-family: 'Amatic SC', cursive;
+}
+
+h4 {
+    text-align: center;
+}
+
 p {
-    padding: 0 10vw;
+    padding: 5px 10px 10px 10px;
+    margin: 0 10vw;
+}
+
+#end-p {
+    margin-top: 50px;
 }
 
 a {
@@ -45,7 +67,47 @@ a {
     align-self: center;
 }
 
-#trampoline-diagram {
+.double-col {
+    column-count: 2;
+    /* column-rule: 1px solid lightblue; */
+}
+
+.main-section-img, figcaption {
+    max-width: 50%;
     display: block;
     margin: auto;
+    text-align: justify;
+}
+
+#trampoline-figcap {
+    max-width: 339px;
+    font-size: 14px;
+    /* padding: 0; */
+}
+
+#neil-figure .main-section-img {
+    border: 4px transparent;
+    background-color: #1f42872f;
+    padding: 10px 10px 0 10px;
+}
+
+#neil-figure figcaption {
+    width: 532px;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    font-size: 13px;
+    border: 4px transparent;
+    background-color: #1f42872f;
+    padding: 5px 10px 5px 10px;
+}
+
+#neil-p {
+    max-width: 532px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #1f4287;
 }
