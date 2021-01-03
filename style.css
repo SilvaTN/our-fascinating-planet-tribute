@@ -3,6 +3,7 @@ body {
     background: linear-gradient(0deg, black, #071e3d 10%) no-repeat;
     color: white;
     font-family: 'Andika New Basic', sans-serif, 'Courier New', monospace;
+    margin: 0;
 }
 
 h2, h4 {
@@ -46,7 +47,8 @@ a {
 
 #img-div {
     width: 100vw;
-    margin-left: -8px;
+    max-width: 100%; /* prevents horizontal scroll https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one */
+    /* margin-left: -8px; */
     padding-top: 28px;
     background-color: black;
     display: flex;
