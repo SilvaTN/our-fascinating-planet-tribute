@@ -8,11 +8,16 @@ body {
 
 h2, h4 {
     margin-top: 50px;
+    margin-bottom: 5px;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 h1 {
     font-family: 'Righteous', cursive;
     text-align: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 h2 {
@@ -43,7 +48,7 @@ br {
 }
 
 #end-p {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 a {
@@ -112,8 +117,6 @@ figure {
     margin-bottom: 30px;
 }
 
-/* #neil-p { */
-    /* width: 532px; */
-    /* display: block; */
-    /* margin: auto; */
-/* } */
+#back-to-main {
+    padding-bottom: 25px;
+}
