@@ -118,5 +118,25 @@ figure {
 }
 
 #back-to-main {
-    padding-bottom: 25px;
+    padding-bottom: 35px;
+}
+
+#grid-science-representatives {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    justify-items: center;
+    gap: 40px 40px;
+    margin: 10vw 10vw;
+}
+
+#grid-science-representatives figure {
+    margin: 0px;
+    margin-bottom: auto;
+    width: 100%;
+    border: 1px solid pink;
+}
+
+#grid-science-representatives img {
+    width: 100%;
 }
