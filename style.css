@@ -62,14 +62,21 @@ a {
     color: #21e6c1;
 }
 
-#img-div {
+.img-div {
     width: 100vw;
     max-width: 100%; /* prevents horizontal scroll https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one */
     /* margin-left: -8px; */
-    padding-top: 28px;
     background-color: black;
     display: flex;
     flex-direction: column;
+}
+
+figure .img-div {
+    background-color: rgba(0, 0, 0, 0.605);
+}
+
+#planet-div {
+    padding-top: 28px;
 }
 
 #img-caption {
@@ -108,9 +115,9 @@ figure {
     margin: 10px 10vw;
 }
 
-#einstein-img {
+#scientist-img {
     width: 100vw;
-    max-width: 100%; /* prevents horizontal scroll https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one */
+    max-width: 70%; /* prevents horizontal scroll https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one */
     /* margin-left: -8px; */
     /* padding-top: 28px; */
     background-color: black;
@@ -129,7 +136,7 @@ figure {
     /* padding: 0; */
 }
 
-#neil-figure {
+#scientist-figure {
     max-width: 532px;
     padding: 0 10vw;
     /* max-width: 50%; */
@@ -138,6 +145,7 @@ figure {
     font-size: 13px;
     margin: auto;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 #back-to-main {
@@ -162,6 +170,10 @@ figure {
 
 #grid-science-representatives img {
     width: 100%;
+}
+
+hr{
+    /* margin: 0 10vw; */
 }
 
 b {
