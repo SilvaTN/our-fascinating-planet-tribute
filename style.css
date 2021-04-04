@@ -99,13 +99,23 @@ a {
     object-fit: contain;
 }
 
+figcaption {
+    color: rgb(197, 197, 197);
+    max-width: 120vh;
+}
+
 figure {
     margin: 10px 10vw;
 }
 
-figcaption {
-    color: rgb(197, 197, 197);
-    max-width: 120vh;
+#einstein-img {
+    width: 100vw;
+    max-width: 100%; /* prevents horizontal scroll https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one */
+    /* margin-left: -8px; */
+    /* padding-top: 28px; */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-section-img {
@@ -115,7 +125,7 @@ figcaption {
 
 #trampoline-figcap {
     max-width: 339px;
-    font-size: 14px;
+    font-size: 15px; 
     /* padding: 0; */
 }
 
@@ -152,4 +162,14 @@ figcaption {
 
 #grid-science-representatives img {
     width: 100%;
+}
+
+b {
+    color: rgb(215, 215, 215);
+}
+
+.did-you-know {
+    display: block;
+    /* margin-left: 30px; */
+    color: rgb(159, 159, 159);
 }
