@@ -72,7 +72,7 @@ a {
 }
 
 figure .img-div {
-    background-color: rgba(0, 0, 0, 0.605);
+    background-color: hsl(214, 79%, 4%);
 }
 
 #planet-div {
@@ -183,7 +183,7 @@ b {
 .did-you-know {
     border-left: 6px solid #1b70df;
     display: block;
-    padding: 5px 20px 10px 25px;
+    padding: 10px 20px 15px 25px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, 0.112);
     text-align: justify;
